@@ -3,7 +3,7 @@
 Contributes:
 Kareen Salameh,
 Yasmin Solomon,
-Rachel Belachew
+Amebet Belachew
 
 
         Our app deals with: Flight investigation
