@@ -1,9 +1,9 @@
 # README
 
 Contributes:
--Kareen Salameh
--Yasmin Solomon
--Rachel Belachew
+Kareen Salameh,
+Yasmin Solomon,
+Rachel Belachew
 
 
         Our app deals with: Flight investigation
