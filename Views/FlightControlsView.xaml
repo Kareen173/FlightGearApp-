@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="FlightSimulatorApp.Views.FlightControlsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FlightSimulatorApp"
+             xmlns:Views="clr-namespace:FlightSimulatorApp.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="566" d:DesignWidth="1202">
+    <Grid>
+        <Canvas Margin="-4,-2,-28,-102">
+            <Views:Joystick X="{Binding VM_X, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Y="{Binding VM_Y, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Height="299" Width="416" Canvas.Left="735" Canvas.Top="299" x:Name="Joystick" Loaded="Joystick_Loaded"/>
+            <Views:Sliders Canvas.Left="833" Canvas.Top="202" x:Name="Sliders" Width="550" Height="396" Loaded="Sliders_Loaded"></Views:Sliders>
+                
+                <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="20" FontWeight="Bold" Grid.Column="1" Text="{Binding ElementName=rudderSlider, Path=Value, Mode=OneWay}" />
+            <Label Grid.Row="1" Margin="45,-10,0,0" HorizontalAlignment="Center" FontSize="20"  FontWeight="Bold" Content=""/>
+            <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="20" FontWeight="Bold" Grid.Column="1" Text="{Binding ElementName=rudderSlider, Path=Value, Mode=OneWay}" />
+           
+        </Canvas>
+    </Grid>
+</UserControl>
