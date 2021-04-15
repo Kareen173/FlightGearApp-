@@ -1,10 +1,5 @@
 # README
 
-Contributes
--Kareen Salameh
--Yasmin Solomon
--Rachel Belachew
-
         Our app deals with: Flight investigation
 
 We will build an app that will allow us to view flight data on a dedicated simulator and explore them.
